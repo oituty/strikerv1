@@ -1,0 +1,341 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+header, section{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.logoNavDesk{
+    height: 38px;
+    width: auto;
+    margin-left: 1.5em;
+    margin-bottom: .3em;
+}
+
+.menuTop{
+    background-color: black;
+    opacity: .9;
+}
+
+.nav-bar{
+    padding: .9rem 1.3rem;
+}
+
+.nav-link{
+    
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.nav-link:hover{
+    color: #29FF77;
+}
+
+
+
+.btn-entrar{
+    border-color: white;
+    background-color: black;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: white;
+    font-size: 1em;
+    border-radius: 0.7em;
+    font-family: 'Archivo Black', sans-serif;
+    overflow: hidden;
+    margin-right: 2em;
+    display: none;
+}
+
+.btn-entrar:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border: none;
+    float: right;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin-top: 1em;
+    margin-right: 1em;
+}
+
+.nav-link.disabled {
+    color: white;
+    margin-bottom: 10vh;
+}
+
+.nav-link.disabled:hover{
+    color: #29FF77;
+}
+
+.navbar-nav .nav-link {
+    margin-top: 3.5vh;
+}
+
+.menuIcon{
+    height: 25px;
+    width: auto;
+}
+
+.jornada{
+    justify-content: center;
+    box-shadow: -1px 1px 8px black;
+    background-color: white;
+}
+
+.btn-jornada{
+    background-color: white;
+    color: #29FF77;
+    border-color: #29FF77;
+    padding-left: 0.9em;
+    padding-right: 0.9em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-size: 1em;
+    border-radius: 0.7em;
+    font-family: 'Archivo Black', sans-serif;
+    overflow: hidden;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.btn-jornada:hover{
+    background-color: #29FF77;
+    color: white;
+}
+
+
+
+.listaSocial{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 40vh;
+    text-align: center;
+    margin-left: 0;
+    background-color: white;
+    box-shadow: 1px 1px 1px black;
+    padding-left: 0;
+    z-index: 999;
+}
+
+.socialItem{
+    padding: 0;
+    margin: 0;
+}
+
+
+.icons{
+    height: 15px;
+    width: auto;
+    margin: 1em .5em 1em .5em;
+}
+
+.socialItem:hover{
+    background-color: rgb(235, 229, 229);
+}
+
+.indexEstrutura{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#29FF77 65%, white 35%);
+}
+
+.blocoTextoHome{
+    height: 50vh;
+    width: 50vw;
+    background-color: red;
+    position: absolute;
+	left: 25vw;
+	top: 25vh;
+}
+
+.indexSobre{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.blocoSobre{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+
+.textoSobre{
+    width: auto;
+    height: auto;
+    top: 30%;
+    text-align: center;
+}
+
+.sobreTitulo{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 3rem;
+    color: #29FF77;
+}
+
+.sobreSubtitulo{
+    font-family: 'Archivo Black';
+}
+
+.sobreDescri{
+    font-family: 'ABeeZee';
+}
+
+.imagemSobre{
+    height: 100%;
+    width: 50%;
+    background-image: url(../img/bkgp2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.indexProjeto{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.blocoEsqP{
+    width: 25vw;
+    height: 100%;
+    background-color: white;
+    padding-top: 12rem;
+    padding-left: 3rem;
+}
+
+.blocoCenP{
+        width: 50vw;
+        height: 100%;
+        background-color: white;
+        padding-top: 10rem;
+        padding-right: 1em;
+        padding-left: 1em;
+        justify-content: center;
+        text-align: center;
+}
+
+.blocoDirP{
+    width: 25vw;
+    height: 100%;
+    background-color: white;
+    padding-top: 12rem;
+    padding-right: 3rem;
+}
+
+
+.indexContato{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.p1Contato{
+    width: 100%;
+    height: 25%;
+    background-color: #29FF77;
+    color: white;
+    padding-top: 14vh;
+}
+
+.p2Contato{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contatoItem{
+    justify-content: center;
+    text-align: center;
+}
+
+.tituEmail{
+    color: #29FF77;
+    margin: 1em;
+}
+
+.tituWhats{
+    color: #29FF77;
+    margin: 0.8em;
+}
+
+.p3Contato{
+    width: 100%;
+    height: 25%;
+    background-color: white;
+}
+
+.contatoPapo{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5vh;
+}
+
+
+
+@media (min-width: 992px){
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center;
+        margin-right: 1em;       
+}
+
+.btn-entrar{
+    display: flex;
+}
+
+.nav-link.disabled {
+    color: white;
+    margin-bottom: 0vh;
+}
+
+.navbar-nav .nav-link {
+    margin-top: 0;
+}
+
+}
