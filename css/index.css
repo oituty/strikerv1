@@ -3,7 +3,6 @@ html, body{
     margin: 0;
     width: 100%;
     height: 100%;
-    
 }
 
 a:link 
@@ -14,7 +13,6 @@ text-decoration:none;
 header, section{
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
 }
 
 * {
@@ -28,16 +26,15 @@ header, section{
     margin: 0;
 }
 
-.logoNavDesk{
+.logoNavDesk {
     height: 38px;
     width: auto;
-    margin-left: 1.5em;
+    margin-left: .4em;
     margin-bottom: .3em;
 }
 
 .menuTop{
     background-color: black;
-    opacity: .9;
 }
 
 .nav-bar{
@@ -151,7 +148,7 @@ header, section{
     background-color: white;
     box-shadow: 1px 1px 1px black;
     padding-left: 0;
-    z-index: 999;
+    z-index: 9999;
 }
 
 .socialItem{
@@ -171,98 +168,160 @@ header, section{
 }
 
 .indexEstrutura{
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#29FF77 65%, white 35%);
+    width: 100vw;
+    height: 100vh;
 }
 
 .blocoTextoHome{
-    height: 50vh;
-    width: 50vw;
-    background-color: red;
-    position: absolute;
-	left: 25vw;
-	top: 25vh;
+    height: 100%;
+    width: 100%;
+    background-color: #29FF77;
+    padding: 30vh 4vh 30vh 4vh;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.textoHeader{
+    font-size: 23px;
+    color: white;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+.iconPlay{
+    height: 45px;
+    width: auto;
+    margin: 1em .5em 1em .5em;
 }
 
 .indexSobre{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.blocoImagemSobre{
+    height: 30%;
     width: 100%;
-    height: 100%;
-    background-color: white;
-    display: flex;
-}
-
-.blocoSobre{
-    height: 100%;
-    width: 50%;
-    background-color: white;
-}
-
-.textoSobre{
-    width: auto;
-    height: auto;
-    top: 30%;
-    text-align: center;
-}
-
-.sobreTitulo{
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 3rem;
-    color: #29FF77;
-}
-
-.sobreSubtitulo{
-    font-family: 'Archivo Black';
-}
-
-.sobreDescri{
-    font-family: 'ABeeZee';
-}
-
-.imagemSobre{
-    height: 100%;
-    width: 50%;
     background-image: url(../img/bkgp2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto 100%;
+    background-attachment: fixed;
+    
+}
+
+.blocoTextoSobre{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 17vh 10vh;
+}
+
+
+.sobreTitulo{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    color: #29FF77;
+    text-align: left;
+}
+
+.sobreSubtitulo{
+    font-family: 'Archivo Black';
+    font-size: .8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.sobreDescri{
+    font-family: 'ABeeZee';
+    font-size: .8em;
+    text-align: left;
 }
 
 .indexProjeto{
-    height: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: black;
-    display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.blocoEsqP{
-    width: 25vw;
-    height: 100%;
-    background-color: white;
-    padding-top: 12rem;
-    padding-left: 3rem;
+.blocoTituP{
+    width: 100%;
+    height: auto;
 }
 
-.blocoCenP{
-        width: 50vw;
-        height: 100%;
-        background-color: white;
-        padding-top: 10rem;
-        padding-right: 1em;
-        padding-left: 1em;
-        justify-content: center;
-        text-align: center;
+.tituloProjeto{
+    font-size: 1.7rem;
+    font-family: 'Archivo Black', sans-serif;
+    color: #29FF77;
+    text-transform: uppercase;
+    padding: 1.5em;
 }
 
-.blocoDirP{
-    width: 25vw;
-    height: 100%;
+.blocoItensProj{
+    height: 100vh;
+    width: 100%;
     background-color: white;
-    padding-top: 12rem;
-    padding-right: 3rem;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-top: 5vh;
 }
+
+.tituloFasesP{
+    font-size: 1.5em;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.descriFasesP{
+    font-size: .8em;
+}
+
+.indexContato{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    margin-top: 2em;
+    justify-content: center;
+    text-align: center;
+    padding: 22vh 6vh;
+}
+
+.logoContato{
+    height: 70px;
+    width: auto;
+    margin-bottom: 1em;
+}
+
+.textoContato{
+    font-size: 1em;
+    margin-top: 2em;
+    color: white;
+}
+
+.papoContato{
+    font-size: 1.5em;
+    color:  #29FF77;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.dadosContato{
+    color: white;
+    margin-bottom: 0;
+
+}
+
+
+
+/* 
+
 
 
 .indexContato{
@@ -314,15 +373,15 @@ header, section{
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
     font-size: 5vh;
-}
+} */
 
 
 
 @media (min-width: 992px){
 
-    .navbar-expand-lg .navbar-collapse {
-        justify-content: center;
-        margin-right: 1em;       
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+    margin-right: 1em;       
 }
 
 .btn-entrar{
@@ -338,4 +397,156 @@ header, section{
     margin-top: 0;
 }
 
+.logoNavDesk{
+    margin-left: 1.5em;
+}
+
+.blocoTextoHome{
+    padding: 34vh 50vh 30vh 50vh; 
+    
+}
+
+.textoHeader{
+    font-size: 33px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.iconPlay{
+    height: 65px;
+}
+
+.iconPlay:hover{
+    height: 75px;
+}
+
+.indexSobre{
+    display: flex;
+}
+
+.blocoImagemSobre{
+    height: 100%;
+    width: 50%;
+    background-attachment: none;
+    background-position: -2em;
+    background-size: 60% auto;    
+}
+
+.blocoTextoSobre{
+    height: 100%;
+    width: 50%;
+    padding: 25vh 18vh;
+}
+
+
+.sobreTitulo{
+    font-size: 3rem;
+}
+
+.sobreSubtitulo{
+    font-size: 1.3em;
+}
+
+.sobreDescri{
+    font-size: 1.1em;
+}
+
+
+}
+
+
+
+/*
+PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
+http://stackoverflow.com/a/34696029/383904
+*/
+
+.CSSgal {
+	position: relative;
+	overflow: hidden;
+	height: 100%; /* Or set a fixed height */
+}
+
+/* SLIDER */
+
+.CSSgal .slider {
+	height: 100%;
+	white-space: nowrap;
+	font-size: 0;
+	transition: 0.8s;
+}
+
+/* SLIDES */
+
+.CSSgal .slider > * {
+	font-size: 1rem;
+	display: inline-block;
+	white-space: normal;
+	vertical-align: top;
+	height: 100%;
+	width: 100%;
+	background: none 50% no-repeat;
+	background-size: cover;
+}
+
+
+/* NAVIGATION */
+
+.CSSgal .bullets {
+	position: absolute;
+	z-index: 2;
+	bottom: 20vh;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+}
+.CSSgal .bullets > a {
+	display: inline-block;
+	width:       20px;
+	height:      20px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+	background: black;
+	-webkit-transition: 0.3s;
+					transition: 0.3s;
+}
+.CSSgal .bullets > a+a {
+	background: white; /* Dim all but first */
+}
+.CSSgal .bullets > a:hover {
+	background: rgb(73, 70, 63) !important;
+}
+
+/* NAVIGATION BUTTONS */
+/* ALL: */
+.CSSgal >s:target ~ .bullets >* {      background: black;}
+/* ACTIVE */
+#s1:target ~ .bullets >*:nth-child(1) {background: white;}
+#s2:target ~ .bullets >*:nth-child(2) {background: white;}
+#s3:target ~ .bullets >*:nth-child(3) {background: white;}
+#s4:target ~ .bullets >*:nth-child(4) {background: white;}
+/* More slides? Add here more rules */
+
+
+
+/* SLIDER ANIMATION POSITIONS */
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+
+
+
+.CSSgal{
+	color: #fff;	
+	text-align: center;
+}
+
+.CSSgal a {
+	border-radius: 50%;
+	margin: 0 3px;
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
 }
